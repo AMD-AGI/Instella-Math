@@ -4,6 +4,7 @@
   <h1>Instella-Math✨: Fully Open Language Model with Reasoning Capability</h1>
 <a href='https://huggingface.co/amd/Instella-3B-Math'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
 <a href='https://rocm.blogs.amd.com/artificial-intelligence/instella-math-language/README.html'><img src='https://img.shields.io/badge/Technical-Blog-red'></a> 
+<a href="https://arxiv.org/pdf/2511.10628.pdf"><img alt="Paper URL" src="https://img.shields.io/badge/arxiv-2511.10628-blue"></a>
 </div>
 
 ## Getting Started
@@ -117,14 +118,13 @@ The evaluation codebase is built from [DeepScaleR](https://github.com/rllm-org/r
 - Refer to the [LICENSE](./LICENSE) and [NOTICE](./NOTICE) files for more information.
 
 ## Citations
-Feel free to cite our Instella-3B models and give us a star⭐ if you find our work helpful :)
+Feel free to cite our Instella paper and give us a star⭐ if you find our work helpful :)
 
 ```text
-@misc{Instella,
-    title = {Instella: Fully Open Language Models with Stellar Performance},
-    url = {https://huggingface.co/amd/Instella-3B},
-    author = {Jiang Liu and Jialian Wu and Xiaodong Yu and Prakamya Mishra and Sudhanshu Ranjan and Zicheng Liu and Chaitanya Manem and Yusheng Su and Pratik Prabhanjan Brahma and Gowtham Ramesh and Ximeng Sun and Ze Wang and Emad Barsoum},
-    month = {March},
-    year = {2025}
+@article{liu2025instella,
+  title={Instella: Fully Open Language Models with Stellar Performance},
+  author={Liu, Jiang and Wu, Jialian and Yu, Xiaodong and Su, Yusheng and Mishra, Prakamya and Ramesh, Gowtham and Ranjan, Sudhanshu and Manem, Chaitanya and Sun, Ximeng and Wang, Ze and Brahma, Pratik Prabhanjan and Liu, Zicheng and Barsoum, Emad},
+  journal={arXiv preprint arXiv:2511.10628},
+  year={2025}
 }
 ```
