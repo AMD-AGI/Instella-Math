@@ -1,0 +1,13 @@
+# Team slugs: https://github.com/orgs/AMD-AGI/teams
+# Syntax: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+# Last matching rule wins. Prefer GitHub Teams over individuals.
+
+# Default — every file requires project-team approval
+* @AMD-AGI/GenAI
+
+# Stricter paths — governance, security, and CI files
+/.github/CODEOWNERS     @AMD-AGI/GenAI
+/.github/workflows/     @AMD-AGI/GenAI
+/SECURITY.md            @AMD-AGI/GenAI
+/LICENSE                @AMD-AGI/GenAI
+/NOTICE                 @AMD-AGI/GenAI

@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials.json
